@@ -1,3 +1,9 @@
+:root {
+	@design-token-utils (custom-properties);
+}
+
 body {
 	font-family: system-ui;
 }
+
+@design-token-utils (utility-classes);

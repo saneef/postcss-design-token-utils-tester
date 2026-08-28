@@ -1,16 +1,13 @@
 {
 	"name": "postcss-design-token-utils-tester",
-	"version": "1.0.0",
-	"description": "",
-	"license": "ISC",
-	"author": "",
-	"type": "commonjs",
-	"main": "index.js",
+	"license": "MIT",
+	"type": "module",
 	"scripts": {
 		"build": "postcss -o dist/style.css css/*.css"
 	},
 	"devDependencies": {
 		"postcss": "^8.5.26",
-		"postcss-cli": "^11.0.1"
+		"postcss-cli": "^11.0.1",
+		"postcss-design-token-utils": "^3.0.1"
 	}
 }
