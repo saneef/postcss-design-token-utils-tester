@@ -6,8 +6,8 @@
 		"build": "postcss -o dist/style.css css/*.css"
 	},
 	"devDependencies": {
-		"postcss": "^8.5.26",
-		"postcss-cli": "^11.0.1",
-		"postcss-design-token-utils": "^3.0.1"
+		"postcss": "^8.5.28",
+		"postcss-cli": "^12.0.0",
+		"postcss-design-token-utils": "^3.0.4"
 	}
 }
